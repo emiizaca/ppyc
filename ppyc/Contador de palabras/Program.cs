@@ -18,11 +18,16 @@ namespace Contador_de_palabras
 
             string[] palabras = parrafo.Split(' '); //se separan las palabras del parrafo en un arreglo
 
-            List<string> palabrasListadas = new List<string>(palabras); //se pasan las palabras a un lista
-
-            foreach (var item in palabrasListadas.GroupBy(x => x))//Se recorre la lista, para llenar el diccionario
+            foreach (var item in palabras)//Se recorre la lista, para llenar el diccionario
             {
-                contadorPalabras.Add(item.Key, item.Count());
+                if (contadorPalabras.ContainsKey(item))
+                {
+                    contadorPalabras[item]++;
+                }
+                else
+                {
+                    contadorPalabras[item] = 1;
+                }
             }
 
             Console.WriteLine("Contenido del diccionario: ");//mensaje al usuario
