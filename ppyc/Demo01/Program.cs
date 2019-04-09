@@ -25,6 +25,7 @@ namespace Demo01
 
             Task t2 = new Task(Metodo2);
             t2.Start();
+            
 
             Task.WaitAll(t2);
 
