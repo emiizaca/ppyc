@@ -2,32 +2,36 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
-namespace Demo01
+namespace Abecedario_dos_Task
 {
     class Program
     {
-        static void Metodo1()
-        {
-            Console.WriteLine("Se inicio metodo 1");
-        }
-        static void Metodo2()
-        {
-            Console.WriteLine("Se inicio metodo 2");
-        }
-
         static void Main(string[] args)
         {
-            Task t1 = Task.Factory.StartNew(Metodo1);
+            char letra = 'a';
 
-            Task.WaitAll(t1);
+            Task t1 = Task.Factory.StartNew(() => 
+            {
+                while(letra < 'z')
+                {
+                    Console.WriteLine("La tarea 1 imprime: " + letra);
+                    letra++;
+                }
+                
+            });
+            Task t2 = Task.Factory.StartNew(() =>
+            {
+                while (letra < 'z')
+                {
+                    Console.WriteLine("La tarea 2 imprime: " + letra);
+                    letra++;
+                }
+            });
 
-            Task t2 = new Task(Metodo2);
-            t2.Start();
-            
-
-            Task.WaitAll(t2);
+            Task.WaitAll(t1, t2);
 
             Console.WriteLine("Presione Enter para terminar le programa");
             Console.Read();

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix", "Netflix\Netflix.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicacion de matrices", "Multiplicacion de matrices\Multiplicacion de matrices.csproj", "{56FE1FAE-DDBA-4487-A525-8CC1EF8B3B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo01", "Demo01\Demo01.csproj", "{8B192684-4D93-460E-B2A7-D072E95D8309}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abecedario dos Task", "Demo01\Abecedario dos Task.csproj", "{8B192684-4D93-460E-B2A7-D072E95D8309}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
