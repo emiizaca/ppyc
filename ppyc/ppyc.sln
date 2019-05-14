@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicacion de matrices"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abecedario dos Task", "Demo01\Abecedario dos Task.csproj", "{8B192684-4D93-460E-B2A7-D072E95D8309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abecedario", "Abecedario\Abecedario.csproj", "{9C21F32B-C48B-420C-9AF5-263735982A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatronWaitAllOneByOne", "PatronWaitAllOneByOne\PatronWaitAllOneByOne.csproj", "{C9B785F7-609B-4CF5-AF75-380BB77D8D8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{8B192684-4D93-460E-B2A7-D072E95D8309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B192684-4D93-460E-B2A7-D072E95D8309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B192684-4D93-460E-B2A7-D072E95D8309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C21F32B-C48B-420C-9AF5-263735982A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C21F32B-C48B-420C-9AF5-263735982A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C21F32B-C48B-420C-9AF5-263735982A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C21F32B-C48B-420C-9AF5-263735982A11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9B785F7-609B-4CF5-AF75-380BB77D8D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9B785F7-609B-4CF5-AF75-380BB77D8D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9B785F7-609B-4CF5-AF75-380BB77D8D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9B785F7-609B-4CF5-AF75-380BB77D8D8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

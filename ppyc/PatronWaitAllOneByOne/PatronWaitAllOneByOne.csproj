@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B192684-4D93-460E-B2A7-D072E95D8309}</ProjectGuid>
+    <ProjectGuid>{C9B785F7-609B-4CF5-AF75-380BB77D8D8C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abecedario_dos_Task</RootNamespace>
-    <AssemblyName>Abecedario dos Task</AssemblyName>
+    <RootNamespace>PatronWaitAllOneByOne</RootNamespace>
+    <AssemblyName>PatronWaitAllOneByOne</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

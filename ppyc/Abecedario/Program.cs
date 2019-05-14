@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
-namespace Abecedario_dos_Task
+namespace Abecedario
 {
     class Program
     {
@@ -13,12 +12,15 @@ namespace Abecedario_dos_Task
         {
             char letra = 'a';
 
-            Task t1 = Task.Factory.StartNew(() => 
+            Task t1 = Task.Factory.StartNew(() =>
             {
-                while(letra < 'z')
+                while (letra < 'z')
                 {
-                    Console.WriteLine("La tarea 1 imprime: " + letra);
-                    letra++;
+                    if(letra % 2 == 0)
+                    {
+                        Console.WriteLine("La tarea 1 imprime: " + letra);
+                        letra++;
+                    }
                 }
             });
 
@@ -26,8 +28,11 @@ namespace Abecedario_dos_Task
             {
                 while (letra < 'z')
                 {
-                    Console.WriteLine("La tarea 2 imprime: " + letra);
-                    letra++;
+                    if (letra % 2 != 0)
+                    {
+                        Console.WriteLine("La tarea 2 imprime: " + letra);
+                        letra++;
+                    }
                 }
             });
 

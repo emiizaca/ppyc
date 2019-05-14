@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B192684-4D93-460E-B2A7-D072E95D8309}</ProjectGuid>
+    <ProjectGuid>{C7ACF0CE-20DC-4BB1-A06A-439D41811359}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Abecedario_dos_Task</RootNamespace>
-    <AssemblyName>Abecedario dos Task</AssemblyName>
+    <RootNamespace>Clase</RootNamespace>
+    <AssemblyName>Clase</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
