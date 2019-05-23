@@ -13,7 +13,7 @@ namespace NetflixParalelo
         {
             var sw = System.Diagnostics.Stopwatch.StartNew();
 
-            string archivo = "D:\\Universidad\\Programacion Paralela y Concurrente\\ratings.txt";
+            string archivo = "D:\\Universidad\\Programacion Paralela y Concurrente\\ratings.txt"; //direccion de archivo!
 
             sw.Restart();
 
