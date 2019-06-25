@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix-pipeline", "Netflix
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dataflow", "Netflix-Dataflow\Dataflow.csproj", "{53F56E6B-D644-448F-B4CB-3A0D4F170C91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix-Conbinado", "Netflix-Conbinado\Netflix-Conbinado.csproj", "{A3CD460C-6F61-459F-87D7-ED1F8A2A96F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parcial", "Parcial\Parcial.csproj", "{7CAD4285-2B47-48CB-9DBE-E49C76F32954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{53F56E6B-D644-448F-B4CB-3A0D4F170C91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53F56E6B-D644-448F-B4CB-3A0D4F170C91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{53F56E6B-D644-448F-B4CB-3A0D4F170C91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CD460C-6F61-459F-87D7-ED1F8A2A96F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CD460C-6F61-459F-87D7-ED1F8A2A96F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CD460C-6F61-459F-87D7-ED1F8A2A96F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CD460C-6F61-459F-87D7-ED1F8A2A96F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAD4285-2B47-48CB-9DBE-E49C76F32954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAD4285-2B47-48CB-9DBE-E49C76F32954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAD4285-2B47-48CB-9DBE-E49C76F32954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAD4285-2B47-48CB-9DBE-E49C76F32954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
