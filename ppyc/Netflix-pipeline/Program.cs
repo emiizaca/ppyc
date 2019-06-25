@@ -60,8 +60,6 @@ namespace Netflix_pipeline
 
             Console.WriteLine("Presione Enter para finalizar");
             Console.ReadLine();
-
-
         }
     }
 }
