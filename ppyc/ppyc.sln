@@ -3,11 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contador de palabras", "Contador de palabras\Contador de palabras.csproj", "{8FF19171-E950-4B9B-A810-73DCABA8CC31}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix", "Netflix\Netflix.csproj", "{87533769-48C6-4C4E-BBD5-7BE0968BC497}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiplicacion de matrices", "Multiplicacion de matrices\Multiplicacion de matrices.csproj", "{56FE1FAE-DDBA-4487-A525-8CC1EF8B3B8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abecedario dos Task", "Demo01\Abecedario dos Task.csproj", "{8B192684-4D93-460E-B2A7-D072E95D8309}"
 EndProject
@@ -23,24 +19,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatronMapReduce", "PatronMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix-productor-consumidor", "Netflix-productor-consumidor\Netflix-productor-consumidor.csproj", "{A1F94B1A-9DF2-4928-9CE9-6DECE064B3FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netflix-pipeline", "Netflix-pipeline\Netflix-pipeline.csproj", "{1460404C-26C2-4C15-9504-D3A6B1179134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8FF19171-E950-4B9B-A810-73DCABA8CC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FF19171-E950-4B9B-A810-73DCABA8CC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8FF19171-E950-4B9B-A810-73DCABA8CC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8FF19171-E950-4B9B-A810-73DCABA8CC31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{87533769-48C6-4C4E-BBD5-7BE0968BC497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{87533769-48C6-4C4E-BBD5-7BE0968BC497}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87533769-48C6-4C4E-BBD5-7BE0968BC497}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87533769-48C6-4C4E-BBD5-7BE0968BC497}.Release|Any CPU.Build.0 = Release|Any CPU
-		{56FE1FAE-DDBA-4487-A525-8CC1EF8B3B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{56FE1FAE-DDBA-4487-A525-8CC1EF8B3B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{56FE1FAE-DDBA-4487-A525-8CC1EF8B3B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{56FE1FAE-DDBA-4487-A525-8CC1EF8B3B8F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8B192684-4D93-460E-B2A7-D072E95D8309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8B192684-4D93-460E-B2A7-D072E95D8309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B192684-4D93-460E-B2A7-D072E95D8309}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -69,6 +59,10 @@ Global
 		{A1F94B1A-9DF2-4928-9CE9-6DECE064B3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1F94B1A-9DF2-4928-9CE9-6DECE064B3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1F94B1A-9DF2-4928-9CE9-6DECE064B3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1460404C-26C2-4C15-9504-D3A6B1179134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1460404C-26C2-4C15-9504-D3A6B1179134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1460404C-26C2-4C15-9504-D3A6B1179134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1460404C-26C2-4C15-9504-D3A6B1179134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
